@@ -6,10 +6,10 @@ SET NAMES utf8;
 SET FOREIGN_KEY_CHECKS = 0;
 
 -- ----------------------------
---  Table structure for `CustomSocialMedia`
+--  Table structure for `CustomSocialMediaIcons`
 -- ----------------------------
-DROP TABLE IF EXISTS `CustomSocialMedia`;
-CREATE TABLE `CustomSocialMedia` (
+DROP TABLE IF EXISTS `CustomSocialMediaIcons`;
+CREATE TABLE `CustomSocialMediaIcons` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `title` text NOT NULL,
   `url_facebook` text,
